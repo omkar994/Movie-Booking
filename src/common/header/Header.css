@@ -1,0 +1,22 @@
+.header{
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+}
+img{
+    margin-top: 18px;
+    margin-left: 15px;
+    background-color: #ff7f7f;
+    height: 35px;
+    transform: translate(-50%, -50%);
+    animation: movieLogo 8s infinite linear;
+}
+
+@keyframes movieLogo{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
