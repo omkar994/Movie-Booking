@@ -1,0 +1,21 @@
+.btn{
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 24px;
+}
+.left1{
+    width: 20%;
+    margin: 25px;
+}
+.middle{
+    width: 60%;
+}
+.right1{
+    width: 20%;
+    margin: 25px;
+}
+.details{
+    display: flex;
+    
+}

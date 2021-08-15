@@ -257,3 +257,6 @@ let moviesData = [
 ]
 
 export default moviesData;
+export function findMovieByid(id){
+    return moviesData.find((movies) => movies.id === id);
+}
